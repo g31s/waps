@@ -73,7 +73,7 @@ class Waps
 
 	def get(find)
 		result = []
-		if @output[0].keys.include? find.to_sym
+		if @output[0].keys.include? find.to_sym && !@output.empty? 
 			result = @output.map { |cell| cell[find.to_sym] }
 		end
 		result
