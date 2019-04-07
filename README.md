@@ -34,7 +34,7 @@ require 'wasp'
 
 * **Gurjant Singh** - *Initial work* - [gurjant31](https://github.com/gurjant31)
 
-See also the list of [contributors](https://github.com/gurjant31/EHND-activities/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/gurjant31/waps/contributors) who participated in this project.
 
 ## License
 
