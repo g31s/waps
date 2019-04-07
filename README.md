@@ -16,9 +16,17 @@ require 'waps'
 ## Usage
 
 * First Require the gem: ``` require 'waps' ```
-* Creating new instance require interface name. Leave it empty if not sure. ``` new_scan = waps.new('Interface_name')```
+* Creating new instance require interface name. Leave it empty if not sure. ``` new_scan = Waps.new('Interface_name')```
 * Start Scan. ```results = new_scan.scan``` 
 * Get specific field. ``` mac_address = new_scan.get('address') ```
+
+```
+require 'waps'
+
+new_scan = Waps.new('')
+new_scan.scan
+mac_addresses = new_scan.get('address')
+```
 
 ## Response Field
 
