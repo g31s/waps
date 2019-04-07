@@ -15,7 +15,7 @@ require 'wasp'
 
 ## Usage
 
-* First Require the gem: ``` require 'wasp'
+* First Require the gem: ``` require 'wasp' ```
 * Creating new instance require interface name. Leave it empty if not sure. ``` new_scan = Wasp.new('Interface_name')```
 * Start Scan. ```results = new_scan.scan``` 
 * Get specific field. ``` mac_address = new_scan.get('address') ```
