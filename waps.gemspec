@@ -2,7 +2,7 @@ Gem::Specification.new do |waps|
 	waps.name 		  = "waps"
 	waps.version	  = "0.0.1"
 	waps.date 		  = "2019-07-05"
-	waps.authors      = ["Gurjatn Singh"]
+	waps.authors      = ["Gurjant Singh"]
 	waps.email        = ["waps@defensestation.ca"]
 	waps.summary      = %q{Gem to scan wirless access point}
 	waps.description  = %q{Gem uses iwlist to scan and parse the response into ruby hash}
