@@ -1,3 +1,5 @@
+require 'open3'
+
 class Waps
 
 	def initialize(interface_name)
@@ -7,7 +9,7 @@ class Waps
 
 	def scan
 		raw_input = run_command
-		@output = parse(raw_input)
+		@output = (raw_input.keys.include? :error) ? raw_input : parse(raw_input[:output])
 	end
 
 	def parse(raw_input)
@@ -17,7 +19,8 @@ class Waps
 	end
 
 	def run_command
-		`sudo iwlist #{@interface_name} scan` 
+		output,error,status = Open3.capture3("sudo iwlist #{@interface_name} scan")
+		return output == "" ? {error: error} : {output: output}
 	end
 
 
