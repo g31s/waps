@@ -1,4 +1,4 @@
-# Wireless Access Point Scanner - <a href="https://badge.fury.io/rb/waps"><img src="https://badge.fury.io/rb/waps.svg" alt="Gem Version" height="18"></a>
+# Wireless Access Point Scanner <a href="https://badge.fury.io/rb/waps"><img src="https://badge.fury.io/rb/waps.svg" alt="Gem Version" height="18"></a>
 
 WAPS uses iwlist to scan for wireless access points and convert the output into ruby hash format. Following is the usage of the gem.
 
