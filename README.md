@@ -1,4 +1,4 @@
-# Wireless Access Point Scanner - Gem
+# Wireless Access Point Scanner - Ruby Gem
 
 WAPS uses iwlist to scan for wireless access points and convert the output into ruby hash format. Following is the usage of the gem.
 
