@@ -5,18 +5,18 @@ WAPS uses iwlist to scan for wireless access points and convert the output into 
 ## Installation
 
 ```
-gem install wasp
+gem install waps
 ```
 Require
 
 ```
-require 'wasp'
+require 'waps'
 ```
 
 ## Usage
 
-* First Require the gem: ``` require 'wasp' ```
-* Creating new instance require interface name. Leave it empty if not sure. ``` new_scan = Wasp.new('Interface_name')```
+* First Require the gem: ``` require 'waps' ```
+* Creating new instance require interface name. Leave it empty if not sure. ``` new_scan = waps.new('Interface_name')```
 * Start Scan. ```results = new_scan.scan``` 
 * Get specific field. ``` mac_address = new_scan.get('address') ```
 
