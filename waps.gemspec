@@ -8,7 +8,7 @@ Gem::Specification.new do |waps|
 	waps.description  = %q{Gem uses iwlist to scan and parse the response into ruby hash}
 	waps.files		  = ["lib/waps.rb"]
 	waps.homepage 	  = "https://github.com/gurjant31/waps"
-	waps.extra_rdoc_files = ['README', 'README.md']
+	waps.extra_rdoc_files = ['README.md']
 	waps.license 	  = "MIT"
 	waps.add_development_dependency 'rspec', '~> 3.7'
 
