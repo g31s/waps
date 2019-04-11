@@ -23,10 +23,14 @@ require 'waps'
 ```
 require 'waps'
 
-new_scan = Waps.new('')
+new_scan = Waps.new
 new_scan.scan
 mac_addresses = new_scan.get('address')
 ```
+## OS Support
+
+* Linux
+* Mac
 
 ## Response Field
 
