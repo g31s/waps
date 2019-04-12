@@ -1,5 +1,5 @@
-require './lib/waps_linux.rb'
-require './lib/waps_mac.rb'
+require 'waps_linux.rb'
+require 'waps_mac.rb'
 
 
 class Waps
