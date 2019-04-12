@@ -4,6 +4,9 @@ require 'waps_mac.rb'
 
 class Waps
 
+	attr_reader :output 
+
+
 	def initialize(interface_name = '')
 		@interface_name = interface_name
 		@output = []

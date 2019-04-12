@@ -1,6 +1,6 @@
 Gem::Specification.new do |waps|
 	waps.name 		  = "waps"
-	waps.version	  = "1.0.1"
+	waps.version	  = "1.0.2"
 	waps.date 		  = "2019-12-05"
 	waps.authors      = ["Gurjant Singh"]
 	waps.email        = ["info@defensestation.ca"]
