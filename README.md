@@ -25,6 +25,7 @@ require 'waps'
 
 new_scan = Waps.new('')
 new_scan.scan
+new_scan.output
 mac_addresses = new_scan.get('address')
 ```
 
